@@ -1,0 +1,128 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Cores principais */
+:root {
+    --primary-green: #a8d5ba;
+    --secondary-green: #dff3e3;
+    --white: #ffffff;
+}
+
+/* Hero / Header */
+.hero {
+    background-color: var(--primary-green);
+    color: var(--white);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.hero .slogan {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.hero .description {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Seções */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+section p {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    color: #555;
+}
+
+/* Serviços */
+.service-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item {
+    background-color: var(--secondary-green);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 250px;
+    max-width: 300px;
+}
+
+/* Contato */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary-green);
+    color: var(--white);
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #8fcaa3;
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--primary-green);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-links a {
+    color: var(--white);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .service-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
