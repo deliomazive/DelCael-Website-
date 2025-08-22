@@ -4,7 +4,6 @@ function irParaSegundaPagina() {
 }
 ```
 
----
 
 *📄 `idiomas.html` (segunda página)*
 
