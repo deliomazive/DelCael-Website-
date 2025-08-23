@@ -1,4 +1,4 @@
-``html
+```html
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -13,8 +13,10 @@
     <h1>🌍 DelCael Idiomas</h1>
     <p class="slogan">Conectando culturas através das palavras</p>
   </header>
- <img src="20250116_220113.jpg" alt="imagen ilustrando aulas de idiomas, estudante feliz e bandeiras de diferentes países  ">
- wi dth="600">
+
+  <!-- Imagem ajustada com classe -->
+  <img src="20250116_220113.jpg" alt="Imagem ilustrando aulas de idiomas, estudante feliz e bandeiras de diferentes países" class="imagem-ajustada">
+
   <section class="intro">
     <p>Oferecemos uma experiência única no aprendizado de idiomas com professores dedicados e métodos personalizados. Aprenda com paixão e propósito!</p>
   </section>
@@ -49,3 +51,16 @@
 </body>
 </html>
 ```
+
+E no seu arquivo `style.css`, adicione este trecho no final:
+
+```css
+.imagem-ajustada {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+```
+
