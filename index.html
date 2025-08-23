@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DelCael Idiomas</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <!-- Ícones -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>🌍DelCael Idiomas</h1>
-    <p class="slogan">Conectando culturas através das palavras</p>
+  <!-- Cabeçalho -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="bx bx-tree"></i>
+      <span>DelCael Idiomas</span>
+    </div>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#services">Serviços</a>
+      <a href="#skills">Habilidades</a>
+      <a href="#about">Sobre Nós</a>
+    </nav>
   </header>
 
-  <!-- Imagem ajustada com classe -->
-  <img src="20250116_220113.jpg" alt="Imagem ilustrando aulas de idiomas, estudante feliz e bandeiras de diferentes países" class="imagem-ajustada">
-
-  <section class="intro">
-    <p>Oferecemos uma experiência única no aprendizado de idiomas com professores dedicados e métodos personalizados. Aprenda com paixão e propósito!</p>
+  <!-- Página inicial -->
+  <section id="home" class="hero">
+    <h1>DelCael Idiomas</h1>
+    <p class="slogan">"Aprender idiomas é plantar árvores de comunicação no mundo."</p>
+    <p class="description">
+      Transforme sua forma de se comunicar com aulas modernas, envolventes e feitas sob medida para você.
+    </p>
+    <img src="https://images.unsplash.com/photo-1584697964403-95f47b8d7c4d" alt="Idiomas e cultura" class="hero-img">
   </section>
 
-  <section id="sobre">
-    <h2>Sobre</h2>
-    <p>Oferecemos aulas particulares de línguas: <strong>Inglês, Espanhol, Francês, Japonês</strong> e <strong>Português</strong>. Cada aula é adaptada ao seu ritmo e objetivo.</p>
+  <!-- Explicação (sem título "Sobre") -->
+  <section class="about">
+    <p>
+      Oferecemos aulas particulares de inglês, espanhol, francês, japonês e português, com foco em resultados reais e prática interativa.
+    </p>
   </section>
 
-  <section id="servicos">
+  <!-- Serviços -->
+  <section id="services" class="services">
     <h2>Serviços</h2>
     <ul>
-      <li>Aulas online e presenciais</li>
-      <li>Disponíveis 4 dias por semana</li>
-      <li>Horários flexíveis e atendimento personalizado</li>
+      <li>Aulas online ao vivo</li>
+      <li>Disponíveis quatro dias por semana</li>
+      <li>Duração de 1h20 por sessão</li>
+      <li>Metodologia personalizada e prática</li>
     </ul>
   </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Email: contato@delcaelidiomas.com</p>
-    <p>Telefone: +258 844601833</p>
+  <!-- O que o aluno irá desenvolver -->
+  <section id="skills" class="skills">
+    <h2>O que você irá desenvolver</h2>
+    <ul>
+      <li>Confiança ao falar diferentes idiomas</li>
+      <li>Habilidades de leitura, escrita e conversação</li>
+      <li>Capacidade de compreender diferentes culturas</li>
+      <li>Preparação para exames e entrevistas</li>
+    </ul>
+    <button onclick="window.location.href='aprendizagem.html'">Explorar Mais</button>
   </section>
 
-  <div class="botao-pagina">
-    <button onclick="irParaSegundaPagina()">Conheça nossos idiomas</button>
-  </div>
-
-  <footer>
-    <p>Siga-nos no <a href="https://wa.me/258844601833" target="_blank">WhatsApp</a></p>
+  <!-- Rodapé -->
+  <footer id="about">
+    <p>Sobre Nós: Somos apaixonados por idiomas e acreditamos no poder da comunicação para transformar vidas.</p>
+    <div class="socials">
+      <a href="https://wa.me/258844601833"><i class="bx bxl-whatsapp"></i></a>
+      <a href="mailto:delcaelidiomas@gmail.com"><i class="bx bx-envelope"></i></a>
+    </div>
+    <p>&copy; 2025 DelCael Idiomas. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
-```
-
-E no seu arquivo `style.css`, adicione este trecho no final:
-
-```css
-.imagem-ajustada {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 20px auto;
-  border-radius: 8px;
-}
-```
-
