@@ -63,10 +63,8 @@ footer {
 
 CSS
 img {
-width: 100%;
-max-width: 600px;
+max-width: 100%;
 height: auto;
 display: block;
 margin: 0 auto;
-
 }
