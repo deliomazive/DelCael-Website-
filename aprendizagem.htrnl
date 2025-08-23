@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendizagem - DelCael Idiomas</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <i class="bx bx-tree"></i>
+      <span>DelCael Idiomas</span>
+    </div>
+  </header>
+
+  <section class="poetic">
+    <p>
+      Aprender um idioma é abrir portas invisíveis.  
+      É sentir o mundo com novos olhos e novas vozes.  
+      Cada palavra é uma semente que floresce em possibilidades.  
+    </p>
+  </section>
+
+  <section class="languages">
+    <h2>Idiomas que oferecemos</h2>
+    <ul>
+      <li><img src="https://flagcdn.com/w20/gb.png" alt="Inglês"> Inglês</li>
+      <li><img src="https://flagcdn.com/w20/es.png" alt="Espanhol"> Espanhol</li>
+      <li><img src="https://flagcdn.com/w20/fr.png" alt="Francês"> Francês</li>
+      <li><img src="https://flagcdn.com/w20/jp.png" alt="Japonês"> Japonês</li>
+      <li><img src="https://flagcdn.com/w20/pt.png" alt="Português"> Português</li>
+    </ul>
+  </section>
+
+  <section class="cta">
+    <p>
+      Não adie seus sonhos. Aprender um idioma é investir em você mesmo.  
+      Clique abaixo e comece sua jornada hoje!
+    </p>
+    <button onclick="window.location.href='https://wa.me/258844601833'">
+      Agendar pelo WhatsApp
+    </button>
+  </section>
+
+  <footer>
+    <div class="socials">
+      <a href="https://wa.me/258844601833"><i class="bx bxl-whatsapp"></i></a>
+      <a href="mailto:delcaelidiomas@gmail.com"><i class="bx bx-envelope"></i></a>
+    </div>
+    <p>&copy; 2025 DelCael Idiomas</p>
+  </footer>
+</body>
+</html>
