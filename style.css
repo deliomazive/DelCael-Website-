@@ -1,4 +1,4 @@
-/* Estilo geral */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,150 +6,76 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, sans-serif;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
   color: #333;
-  background: #fff;
+  background: #f9f9f9;
 }
 
-/* Navbar */
-.navbar {
-  background: #0b3d2e;
+/* Cabeçalho */
+.site-header {
+  background: #004d40;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  align-items: center;
-}
-
-.navbar .logo {
-  display: flex;
-  align-items: center;
-  font-size: 1.3rem;
-}
-
-.navbar .logo i {
-  font-size: 1.6rem;
-  margin-right: 8px;
-}
-
-.navbar nav a {
-  margin: 0 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-.navbar nav a:hover {
-  color: #a9f1d9;
-}
-
-/* Hero */
-.hero {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
-.hero h1 {
-  font-size: 2.5rem;
-  color: #0b3d2e;
+.site-header h1 {
+  font-size: 2.2rem;
 }
 
-.hero .slogan {
+.site-header .slogan {
   font-size: 1.2rem;
-  margin: 10px 0;
-  color: #444;
-}
-
-.hero .description {
-  margin: 10px auto;
-  max-width: 600px;
-}
-
-.hero-img {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  margin-top: 1rem;
-  border-radius: 10px;
+  margin-top: 0.5rem;
+  font-style: italic;
 }
 
 /* Seções */
-section {
-  padding: 2rem;
+main section {
+  padding: 2rem 1rem;
   max-width: 900px;
   margin: auto;
 }
 
-.services ul,
-.skills ul,
-.languages ul {
-  list-style: none;
-  padding: 0;
+main h2 {
+  color: #004d40;
+  margin-bottom: 1rem;
 }
 
-.services li,
-.skills li,
-.languages li {
-  background: #f0f7f4;
-  margin: 8px 0;
-  padding: 10px;
-  border-radius: 8px;
+main p, main ul {
+  margin-bottom: 1rem;
 }
 
-.skills button,
-.cta button {
-  display: block;
-  margin: 20px auto;
-  padding: 12px 24px;
-  border: none;
-  background: #0b3d2e;
+/* Botão */
+button {
+  background: #00796b;
   color: white;
-  font-size: 1rem;
-  border-radius: 6px;
+  border: none;
+  padding: 0.8rem 1.2rem;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background 0.3s;
+  font-size: 1rem;
 }
 
-.skills button:hover,
-.cta button:hover {
-  background: #146b4b;
-}
-
-/* Poético */
-.poetic {
-  text-align: center;
-  font-style: italic;
-  font-size: 1.2rem;
-  color: #222;
-  margin: 2rem auto;
-  max-width: 700px;
-}
-
-/* Lista de idiomas */
-.languages ul li {
-  display: flex;
-  align-items: center;
-}
-
-.languages ul li img {
-  margin-right: 10px;
+button:hover {
+  background: #004d40;
 }
 
 /* Rodapé */
-footer {
-  background: #0b3d2e;
+.site-footer {
+  background: #004d40;
   color: white;
   text-align: center;
   padding: 1rem;
 }
 
-footer .socials a {
-  margin: 0 10px;
+.site-footer .social a {
   color: white;
-  font-size: 1.4rem;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-footer .socials a:hover {
-  color: #a9f1d9;
+.site-footer .sobre-nos {
+  margin-top: 1rem;
+  font-size: 0.9rem;
 }
