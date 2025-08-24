@@ -1,66 +1,204 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DelCael Idiomas</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DelCael Idiomas — Comunicação que abre portas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-  <header class="site-header">
-    <h1>🌿 DelCael Idiomas</h1>
-    <p class="slogan">Transformando sua forma de se comunicar com o mundo</p>
+  <!-- Cabeçalho simples, sem navegação -->
+  <header class="topbar">
+    <div class="brand">
+      <!-- Ícone: árvore formada por mãos (SVG simples e leve) -->
+      <svg class="hand-tree" viewBox="0 0 120 120" aria-hidden="true">
+        <defs>
+          <linearGradient id="leaf1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#4CAF50"/>
+            <stop offset="100%" stop-color="#1B5E20"/>
+          </linearGradient>
+          <linearGradient id="leaf2" x1="1" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#26A69A"/>
+            <stop offset="100%" stop-color="#00695C"/>
+          </linearGradient>
+          <linearGradient id="leaf3" x1="0" y1="1" x2="1" y2="0">
+            <stop offset="0%" stop-color="#81C784"/>
+            <stop offset="100%" stop-color="#2E7D32"/>
+          </linearGradient>
+        </defs>
+        <!-- tronco -->
+        <path d="M58 60c-3 18-4 30-4 38 0 7 12 7 12 0 0-8-1-20-4-38h-4z" fill="#5D4037"/>
+        <!-- mãos-folhas (formas simplificadas de mãos) -->
+        <path d="M60 55c18-10 24-22 22-30-10-3-19 7-22 16-4-14-18-20-28-12-3 8 10 20 28 26z" fill="url(#leaf1)"/>
+        <path d="M60 52c-20-4-30-14-30-22 8-8 20-5 28 6 3-10 14-16 24-12 4 10-6 22-22 28z" fill="url(#leaf2)" opacity=".9"/>
+        <path d="M60 56c10 2 26 0 34-10-1-10-14-12-22-5 2-9-10-16-18-10-6 10 0 20 6 25z" fill="url(#leaf3)" opacity=".8"/>
+      </svg>
+      <div class="brand-text">
+        <strong>DelCael Idiomas</strong>
+        <span>Comunicação que abre portas</span>
+      </div>
+    </div>
   </header>
 
   <main>
-    <!-- Descrição inicial -->
-    <section class="intro">
-      <h2>Aprenda Idiomas com Propósito</h2>
+    <!-- Hero sem imagem: título + slogan + parágrafo forte -->
+    <section class="hero">
+      <h1>Aprender um idioma é ganhar voz — e abrir oportunidades reais.</h1>
+      <p class="lead">
+        Na DelCael Idiomas, você não “só estuda”: você treina <em>comunicação</em>.
+        Aulas particulares de <strong>inglês, espanhol, francês, japonês e português</strong>,
+        com prática direcionada para entrevistas, exames, reuniões, viagens e vida profissional.
+      </p>
+      <div class="cta-row">
+        <button class="btn btn-primary" onclick="window.location.href='aprendizagem.html'">
+          Explorar Mais
+        </button>
+        <a class="btn btn-ghost" href="https://wa.me/258844601833" target="_blank" rel="noopener">
+          Falar no WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- Texto de apresentação (sem o subtítulo 'Sobre') -->
+    <section class="section">
       <p>
-        No <strong>DelCael Idiomas</strong>, acreditamos que aprender uma língua é mais do que memorizar palavras. 
-        É abrir portas para novas culturas, conquistar oportunidades de carreira e ganhar confiança para se expressar 
-        com clareza em qualquer situação. Oferecemos aulas particulares de <em>inglês, espanhol, francês, japonês e português</em>, 
-        adaptadas ao seu ritmo e às suas necessidades.
+        Acreditamos em um ensino direto, humano e aplicado. Cada plano é construído a partir do seu objetivo:
+        conquistar uma vaga, elevar sua pontuação em exames, negociar com clientes, apresentar propostas com
+        clareza ou simplesmente viajar e se conectar com pessoas no mundo todo. O foco é progresso mensurável
+        e confiança ao se expressar.
       </p>
     </section>
 
-    <!-- Serviços -->
-    <section class="servicos">
-      <h2>Nossos Serviços</h2>
-      <ul>
-        <li><strong>Aulas Online:</strong> quatro dias por semana, com 1h20 de duração.</li>
-        <li><strong>Preparação para entrevistas de emprego:</strong> desenvolva confiança e técnicas eficazes para se destacar.</li>
-        <li><strong>Exames e Certificações:</strong> reforço e acompanhamento para resultados sólidos.</li>
-        <li><strong>Comunicação do dia a dia:</strong> pratique conversas reais para situações reais.</li>
+    <!-- Serviços: bloco claro e objetivo -->
+    <section class="section cards">
+      <h2>Serviços</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>Aulas online ao vivo</h3>
+          <p>Quatro dias por semana, encontros de <strong>1h20</strong> — ritmo que mantém consistência sem sobrecarregar.</p>
+        </article>
+        <article class="card">
+          <h3>Entrevistas de emprego</h3>
+          <p>Treino de respostas, <em>pitch</em> pessoal, simulações e linguagem corporal para você performar com segurança.</p>
+        </article>
+        <article class="card">
+          <h3>Exames e certificações</h3>
+          <p>Roteiros de estudo e simulados focados em resultado (IELTS, TOEFL, DELE, DELF, JLPT, entre outros).</p>
+        </article>
+        <article class="card">
+          <h3>Comunicação profissional</h3>
+          <p>E-mails, reuniões, apresentações, negociação — do vocabulário à clareza de ideias.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- O que o aluno irá desenvolver -->
+    <section class="section highlight">
+      <h2>O que você vai desenvolver</h2>
+      <ul class="checklist">
+        <li>Fluência prática: falar com naturalidade, sem travar.</li>
+        <li>Escuta ativa e compreensão de diferentes sotaques.</li>
+        <li>Escrita clara e objetiva para ambientes profissionais.</li>
+        <li>Vocabulário útil para reuniões, entrevistas e viagens.</li>
+        <li>Estratégias para exames: tempo, estrutura, desempenho.</li>
+        <li>Confiança comunicativa e postura segura ao se apresentar.</li>
+        <li>Habilidade de construir argumentos e persuadir com respeito.</li>
+        <li>Competência intercultural para interagir com diferentes culturas.</li>
       </ul>
     </section>
 
-    <!-- O que o aluno desenvolve -->
-    <section class="habilidades">
-      <h2>O que Você Vai Desenvolver</h2>
-      <ul>
-        <li>Confiança ao falar em público e em entrevistas.</li>
-        <li>Capacidade de redigir textos claros e objetivos em outro idioma.</li>
-        <li>Facilidade para compreender nativos em situações reais.</li>
-        <li>Habilidades de negociação e comunicação profissional.</li>
-        <li>Abertura cultural e expansão de horizontes pessoais e profissionais.</li>
-      </ul>
-      <button onclick="window.location.href='aprendizagem.html'">Explorar Mais</button>
+    <!-- Preparação para a vida real (seção nova que você pediu) -->
+    <section class="section cards">
+      <h2>Preparação para a vida real</h2>
+      <div class="grid">
+        <article class="card long">
+          <h3>Entrevistas</h3>
+          <p>
+            Blocos de treino com perguntas frequentes, mapeamento do seu histórico profissional e
+            construção de respostas estratégicas. Você aprende a ganhar tempo, estruturar ideias e
+            sustentar argumentos com exemplos concretos.
+          </p>
+        </article>
+        <article class="card long">
+          <h3>Exames</h3>
+          <p>
+            Técnicas específicas para leitura, escrita, audição e fala. Simulados com feedback e
+            plano de estudo semanal, para evoluir com consistência até a nota que você precisa.
+          </p>
+        </article>
+        <article class="card long">
+          <h3>Trabalho e negócios</h3>
+          <p>
+            Comunicação por e-mail, reuniões produtivas e apresentações que prendem a atenção — do
+            rascunho ao ensaio final, com linguagem profissional e objetiva.
+          </p>
+        </article>
+        <article class="card long">
+          <h3>Vida prática</h3>
+          <p>
+            Situações reais de viagem, socialização e resolução de problemas. Você aprende a pedir,
+            negociar, recusar com elegância e criar conexão — no idioma certo.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Metodologia e Estrutura das aulas (detalhados) -->
+    <section class="section two-col">
+      <div>
+        <h2>Metodologia</h2>
+        <p>
+          Começamos pelo seu objetivo e ponto de partida. A cada semana, você recebe metas claras,
+          materiais focados e atividades de prática guiada. Conversação desde a primeira aula,
+          feedback preciso e revisões inteligentes para consolidar — sem enrolação.
+        </p>
+      </div>
+      <div>
+        <h2>Estrutura das aulas</h2>
+        <p>
+          Aulas individuais, online, quatro vezes por semana (1h20). Sequência típica: <em>aquecimento</em>,
+          prática orientada, simulação aplicada (entrevista, e-mail, apresentação), feedback e plano de
+          tarefa curta para a próxima sessão.
+        </p>
+      </div>
+    </section>
+
+    <!-- CTA final forte -->
+    <section class="section cta-final">
+      <h2>Pronto para tirar a língua do papel e levar para a vida?</h2>
+      <p>
+        Clique abaixo para ver detalhes, idiomas, frases e como começamos a sua jornada. Sem
+        promessas mágicas — só método, constância e resultado.
+      </p>
+      <button class="btn btn-primary btn-lg" onclick="window.location.href='aprendizagem.html'">
+        Explorar Mais
+      </button>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <p>© 2025 DelCael Idiomas</p>
-    <div class="social">
-      <a href="https://wa.me/258844601833" target="_blank">📱 WhatsApp</a>
-      <a href="mailto:delcaelidiomas@gmail.com">✉️ E-mail</a>
+  <!-- Rodapé com 'Sobre nós' explícito -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="about">
+        <h3>Sobre nós</h3>
+        <p>
+          O DelCael Idiomas nasceu do compromisso de oferecer um ensino de línguas direto ao ponto:
+          prático, humano e orientado a resultados. Acreditamos que toda pessoa pode se comunicar
+          com clareza — com a metodologia certa, no tempo certo.
+        </p>
+      </div>
+      <div class="contact">
+        <h3>Contato</h3>
+        <ul>
+          <li><a href="https://wa.me/258844601833" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a href="mailto:delcaelidiomas@gmail.com">E-mail</a></li>
+        </ul>
+      </div>
     </div>
-    <p class="sobre-nos">
-      <strong>Sobre nós:</strong> O DelCael Idiomas nasceu com a missão de ajudar pessoas a dominarem línguas estrangeiras 
-      com métodos eficazes, práticos e humanos. Cada aula é pensada para desenvolver não apenas habilidades linguísticas, 
-      mas também competências de comunicação que transformam vidas.
-    </p>
+    <p class="copy">© 2025 DelCael Idiomas. Todos os direitos reservados.</p>
   </footer>
 </body>
 </html>
