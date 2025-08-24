@@ -5,52 +5,64 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Aprendizagem - DelCael Idiomas</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">
-      <i class="bx bx-tree"></i>
-      <span>DelCael Idiomas</span>
-    </div>
+  <header class="site-header">
+    <h1>🌿 Aprendizagem em Idiomas</h1>
+    <p class="slogan">Um novo idioma é um novo começo</p>
   </header>
 
-  <section class="poetic">
-    <p>
-      Aprender um idioma é abrir portas invisíveis.  
-      É sentir o mundo com novos olhos e novas vozes.  
-      Cada palavra é uma semente que floresce em possibilidades.  
-    </p>
-  </section>
+  <main>
+    <!-- Texto poético -->
+    <section class="poetico">
+      <p>
+        Aprender um idioma é plantar uma semente que floresce em oportunidades. 
+        Cada palavra nova é um degrau para conquistar sonhos, cada frase é um passo 
+        em direção à liberdade de se comunicar com o mundo. 
+        No DelCael Idiomas, sua voz ganha asas.
+      </p>
+    </section>
 
-  <section class="languages">
-    <h2>Idiomas que oferecemos</h2>
-    <ul>
-      <li><img src="https://flagcdn.com/w20/gb.png" alt="Inglês"> Inglês</li>
-      <li><img src="https://flagcdn.com/w20/es.png" alt="Espanhol"> Espanhol</li>
-      <li><img src="https://flagcdn.com/w20/fr.png" alt="Francês"> Francês</li>
-      <li><img src="https://flagcdn.com/w20/jp.png" alt="Japonês"> Japonês</li>
-      <li><img src="https://flagcdn.com/w20/pt.png" alt="Português"> Português</li>
-    </ul>
-  </section>
+    <!-- Idiomas + frases -->
+    <section class="idiomas">
+      <h2>Idiomas que você pode aprender</h2>
+      <ul>
+        <li>🇵🇹 Português – <em>Junte-se a nós e vamos aprender</em></li>
+        <li>🇬🇧 English – <em>Join us and let’s learn</em></li>
+        <li>🇪🇸 Español – <em>Únete a nosotros y vamos a aprender</em></li>
+        <li>🇫🇷 Français – <em>Rejoignez-nous et apprenons ensemble</em></li>
+        <li>🇯🇵 日本語 – <em>一緒に学びましょう</em></li>
+      </ul>
+    </section>
 
-  <section class="cta">
-    <p>
-      Não adie seus sonhos. Aprender um idioma é investir em você mesmo.  
-      Clique abaixo e comece sua jornada hoje!
-    </p>
-    <button onclick="window.location.href='https://wa.me/258844601833'">
-      Agendar pelo WhatsApp
-    </button>
-  </section>
+    <!-- Texto persuasivo -->
+    <section class="convite">
+      <h2>Por que escolher o DelCael Idiomas?</h2>
+      <p>
+        Porque aqui você não apenas aprende um idioma — você aprende a se expressar com confiança. 
+        Preparar-se para uma entrevista de emprego, para um exame internacional ou para uma 
+        reunião importante exige mais do que vocabulário: exige segurança, naturalidade e clareza. 
+        É exatamente isso que oferecemos. Cada aula é uma experiência de crescimento pessoal e 
+        profissional, feita sob medida para você.
+      </p>
+      <p>
+        Imagine-se conversando sem medo em uma entrevista, viajando para outro país e se comunicando 
+        naturalmente, ou alcançando a nota que precisa em um exame. Este é o futuro que começa aqui.
+      </p>
+    </section>
 
-  <footer>
-    <div class="socials">
-      <a href="https://wa.me/258844601833"><i class="bx bxl-whatsapp"></i></a>
-      <a href="mailto:delcaelidiomas@gmail.com"><i class="bx bx-envelope"></i></a>
+    <!-- Botão de WhatsApp -->
+    <section class="cta">
+      <button onclick="window.location.href='https://wa.me/258844601833'">📱 Agendar Aula no WhatsApp</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 DelCael Idiomas</p>
+    <div class="social">
+      <a href="https://wa.me/258844601833" target="_blank">📱 WhatsApp</a>
+      <a href="mailto:delcaelidiomas@gmail.com">✉️ E-mail</a>
     </div>
-    <p>&copy; 2025 DelCael Idiomas</p>
   </footer>
 </body>
 </html>
