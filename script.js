@@ -1,2 +1,2 @@
-// Por enquanto não é necessário JavaScript extra
-console.log("DelCael Idiomas - site carregado com sucesso!");
+// Por enquanto vazio, mas você pode adicionar interações extras aqui no futuro
+console.log("DelCael Idiomas carregado com sucesso!");
