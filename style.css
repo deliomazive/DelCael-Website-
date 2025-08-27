@@ -3,11 +3,11 @@ body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: #ffffff;
-  color: #1b3d2f;
+  color: #000000; /* texto padrão em preto */
 }
 
 header {
-  background-color: #1b3d2f;
+  background-color: #0f2d1e; /* verde mais escuro */
   color: white;
   padding: 20px;
   text-align: center;
@@ -16,7 +16,7 @@ header {
 .logo i {
   font-size: 2rem;
   margin-right: 10px;
-  color: #a8e6cf;
+  color: #8B5E3C; /* castanho */
 }
 
 .slogan {
@@ -26,6 +26,11 @@ header {
 
 main {
   padding: 20px;
+}
+
+h2 {
+  color: #b8860b; /* amarelo escuro para títulos */
+  margin-bottom: 15px;
 }
 
 .intro.descricao {
@@ -62,11 +67,11 @@ section {
   content: "✔";
   position: absolute;
   left: 0;
-  color: #1b3d2f;
+  color: #0f2d1e; /* verde escuro */
 }
 
 button {
-  background-color: #1b3d2f;
+  background-color: #0f2d1e;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -79,14 +84,14 @@ button:hover {
 }
 
 footer {
-  background-color: #1b3d2f;
+  background-color: #0f2d1e;
   color: white;
   padding: 20px;
   text-align: center;
 }
 
 footer a {
-  color: #a8e6cf;
+  color: #8B5E3C; /* castanho nos links */
   margin: 0 10px;
   text-decoration: none;
 }
