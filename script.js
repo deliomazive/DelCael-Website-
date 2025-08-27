@@ -1,5 +1,2 @@
-```javascript
-function irParaSegundaPagina() {
-  window.location.href = "segunda-pagina.html";
-}
-```
+// JS simples para futuros ajustes
+console.log("DelCael Idiomas ativo!");
