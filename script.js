@@ -1,2 +1,1 @@
-// JS simples para futuros ajustes
-console.log("DelCael Idiomas ativo!");
+// Arquivo reservado para futuras interações
