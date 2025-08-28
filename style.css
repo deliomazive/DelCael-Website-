@@ -62,3 +62,13 @@ footer .icons a {
   margin: 0 10px;
   text-decoration: none;
 }
+
+```css
+img {
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+```
